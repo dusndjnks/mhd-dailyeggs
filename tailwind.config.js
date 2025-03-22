@@ -8,6 +8,8 @@ export default {
     screens : {
       'xs':'300px',
 
+      "x" : "450px",
+
       "s" : "500px",
  
       'sm': '640px',
