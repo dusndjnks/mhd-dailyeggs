@@ -27,7 +27,7 @@ const Products = () => {
         </div>
 
         <div 
-          className="h-full w-screen flex items-center justify-center bg-cover bg-center py-10 sm:py-14 md:py-20 px-6 sm:px-12 md:px-16" 
+          className="h-full flex items-center justify-center bg-cover bg-center py-10 sm:py-14 md:py-20 px-6 sm:px-12 md:px-16" 
           style={{ backgroundImage: `url(${img1})` }}
         >
           <div className="flex flex-col items-center text-center font-[Gill_Sans_MT] leading-relaxed">
@@ -98,7 +98,7 @@ const Products = () => {
 
 
 
-        <div className="flex w-screen justify-center py-5 ">
+        <div className="flex justify-center py-5 ">
           <h1 className="s:text-[20px] sm:text-[25px] md:text-[32px] lg:text-[40px] xl:text-[45px] font-[Gelasio]">🥚 <span className="text-[#3093CC]">Daily Eggs</span>  — Fresh from Farm to Family.</h1>
         </div>
 

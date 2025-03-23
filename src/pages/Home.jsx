@@ -19,12 +19,12 @@ const Home = () => {
   return (
     <div className=''>
           <div className=''>
-           <div className="xl:h-[650px] h-40 x:h-[190px] s:h-[230px] sm:h-[300px] md:h-[400px] lg:h-[480px] bg-cover bg-center" style={{ backgroundImage: `url(${img})` }}>
+           <div className="xl:h-[650px] h-[160px] x:h-[190px] s:h-[230px] sm:h-[300px] md:h-[400px] lg:h-[480px] bg-cover bg-center " style={{ backgroundImage: `url(${img})` }}>
              <div className="flex  xl:h-screen xl:pr-20 px-2">
                 <div className="w-2/6 mr-2">
                  <img src={eggs1} alt='' className="h-24 w-24 s:h-32 s:w-32 sm:h-48 sm:w-48 md:h-[230px] md:w-[230px] lg:w-[280px] lg:h-[300px] xl:h-[400px] xl:w-[950px]  rounded-full xl:mt-10 mt-2 xl:mx-5 mx-2" />
                 </div>
-                <div className="flex flex-col items-center justify-center w-5/6 xl:pb-10 xl:pl-10 xl:pt-[124px] sm:mt-5 md:mt-10 mt-2 mr-5">
+                <div className="flex flex-col items-center justify-center w-5/6 xl:pb-10 xl:pl-10 xl:pt-[124px] sm:mt-5 md:mt-10 mt-2 mr-5 x:pt-6 xs:pt-4">
                 <h1 className="xl:text-[68px] text-[20px] s:text-[32px] sm:text-[40px] md:text-[50px] lg:text-[70px] font-extrabold text-center uppercase xl:leading-[60px] leading-[20px] s:leading-[30px] sm:leading-[40px] md:leading-[50px] lg:leading-[60px] text-black text-start ">Your daily needs
                  <br /> <span className="text-white ">daily foods</span></h1>
                  <h1 className=" text-white text-center font-[Gill_Sans_MT] xl:text-[26px] text-[6px] s:text-[10px] sm:text-[14px] md:text-[18px] lg:text-[23px] sm:py-3 py-1">"Fresh Eggs, Every Day — Straight from Our Farm to Your Table!</h1>
@@ -62,7 +62,7 @@ const Home = () => {
 
           
 
-       <div className="flex w-screen justify-center py-5 ">
+       <div className="flex  justify-center py-5 ">
           <h1 className="s:text-[20px] sm:text-[25px] md:text-[32px] lg:text-[40px] xl:text-[45px] font-[Gelasio]">🥚 <span className="text-[#3093CC]">Daily Eggs</span>  — Fresh from Farm to Family.</h1>
         </div>
       
