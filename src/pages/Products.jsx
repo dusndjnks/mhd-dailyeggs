@@ -37,7 +37,7 @@ const Products = () => {
         </div>
  
 
-        <div className="flex flex-wrap justify-center lg:justify-between gap-4 sm:px-10 md:px-16 lg:px-28">
+        <div className="flex flex-wrap justify-center lg:justify-between gap-4 w-screen px-3 sm:px-10 md:px-16  lg:px-28">
           <div className="bg-[#68B9D9] flex flex-col items-center w-[170px]  max-w-[300px] sm:max-w-[363px] h-full pb-5 sm:h-[513px] rounded-t-3xl">
             <img src={prdct3} alt="" className="w-[170px] " />
             <h2 className="s:text-base text-xs sm:text-lg font-bold sm:pt-6 pt-2 sm:pt-8 pb-3 sm:pb-3 pb-1 text-center">Al Hayat Farm Fresh Egg</h2>
