@@ -52,7 +52,7 @@ const Home = () => {
             <p className="text-[8px] sm:text-[12px] md:text-[15px] lg:text-[20px] xl:text-[23px] font-[Gill_Sans_MT]"><span className="lg:text-[30px] text-[9px] sm:text-[14px] md:text-[17px] lg:text-[22px] xl:text-[28px] font-semibold">Heart Health:</span> Eggs raise HDL (good cholesterol) and can improve heart health for many people.</p>
             <p className="text-[8px] sm:text-[12px] md:text-[15px] lg:text-[20px] xl:text-[23px] font-[Gill_Sans_MT]"><span className="lg:text-[30px] text-[9px] sm:text-[14px] md:text-[17px] lg:text-[22px] xl:text-[28px]  font-semibold">Eye Health:</span> They contain lutein and zeaxanthin, antioxidants that protect your eyes from damage.</p>
             <p className="text-[8px] sm:text-[12px] md:text-[15px] lg:text-[20px] xl:text-[23px] font-[Gill_Sans_MT]"><span className="lg:text-[30px] text-[9px] sm:text-[14px] md:text-[17px] lg:text-[22px] xl:text-[28px]  font-semibold ">Weight Management:</span> Low in calories but high in protein, making them a great option for a satisfying meal.</p>
-            <button className="lg:text-[26px] text-sm lg:w-64 md:py-2 px-3 md:text-xl rounded-lg  bg-[#3093CC] text-white md:ml-32 md:my-5 my-2 xl:ml-56 ">View More</button>
+            <button className="lg:text-[26px] text-sm lg:w-64 md:py-2 px-3 md:text-xl rounded-lg  bg-[#3093CC] text-white md:ml-32 md:my-5 my-2 xl:ml-56 ml-5">View More</button>
           </div>
           <div className="xs:mr-2 s:ml-8">
               <img src={eggs2} alt="" className="pt-20 s:pt-16 sm:pt-14 lg:pt-40 lg:w-[1200px] w-56 s:w-[340px] sm:w-[450px] md:w-[530px] lg:w-[660px] xl:w-[80 0px] rounded-b-xl" />
