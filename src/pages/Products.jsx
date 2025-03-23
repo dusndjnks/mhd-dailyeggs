@@ -35,66 +35,35 @@ const Products = () => {
             <h1 className="text-[#3093CC] font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl">Magic Can Happen</h1>
           </div>
         </div>
+ 
 
-        <div className='flex flex-col md:gap-20 '>
-        <div className="flex flex-wrap justify-center lg:justify-between gap-4 px-4 sm:px-10 md:px-16 lg:px-28">
-          <div className="bg-[#68B9D9] flex flex-col items-center w-full max-w-[300px] sm:max-w-[363px] h-[450px] sm:h-[513px] rounded-t-4xl">
-            <img src={prdct3} alt="" className="w-[300px] sm:w-[363px] h-[180px] sm:h-[216px]" />
-            <h2 className="text-base sm:text-lg font-bold pt-6 sm:pt-8 pb-3 sm:pb-5 text-center">Al Hayat Farm Fresh Egg</h2>
-            <p className="text-gray-800 text-xs sm:text-sm text-center px-4">
+        <div className="flex flex-wrap justify-center lg:justify-between gap-4 sm:px-10 md:px-16 lg:px-28">
+          <div className="bg-[#68B9D9] flex flex-col items-center w-[150px]  max-w-[300px] sm:max-w-[363px] h-full pb-5 sm:h-[513px] rounded-t-3xl">
+            <img src={prdct3} alt="" className="w-[150px] " />
+            <h2 className="s:text-base text-xs sm:text-lg font-bold sm:pt-6 pt-2 sm:pt-8 pb-3 sm:pb-3 pb-1 text-center">Al Hayat Farm Fresh Egg</h2>
+            <p className="text-gray-800 s:text-xs text-[10px] sm:text-sm text-center sm:px-4 px-2">
               Savor the freshness of locally produced Al Hayat Farm Fresh Eggs. Free from artificial additives, these naturally fresh eggs are high in protein, making them a healthy choice for your daily diet.
             </p>
-            <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md">Buy</button>
+            <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md sm:text-base text-[13px]">Buy</button>
           </div>
 
-          <div className="bg-[#68B9D9] flex flex-col items-center w-full max-w-[300px] sm:max-w-[363px] h-[450px] sm:h-[513px] rounded-t-4xl">
-            <img src={prdct2} alt="" className="w-[300px] sm:w-[363px] h-[180px] sm:h-[216px]" />
-            <h2 className="text-base sm:text-lg font-bold pt-6 sm:pt-8 pb-3 sm:pb-5 text-center">Daily Foods Fresh Hen Egg</h2>
-            <p className="text-gray-800 text-xs sm:text-sm text-center px-4">
-              Experience the superior taste and nutrition of our imported Daily Foods Fresh Hen Eggs. Rich in essential proteins and nutrients, these eggs provide the daily energy you need. Perfect for a wide range of culinary applications, from breakfast dishes to gourmet recipes.
+          <div className="bg-[#68B9D9] flex flex-col items-center w-[150px]  max-w-[300px] sm:max-w-[363px] h-full pb-5 sm:h-[513px] rounded-t-3xl">
+            <img src={prdct3} alt="" className="w-[150px] " />
+            <h2 className="s:text-base text-xs sm:text-lg font-bold sm:pt-6 pt-2 sm:pt-8 pb-3 sm:pb-3 pb-1 text-center">Al Hayat Farm Fresh Egg</h2>
+            <p className="text-gray-800 s:text-xs text-[10px] sm:text-sm text-center sm:px-4 px-2">
+              Savor the freshness of locally produced Al Hayat Farm Fresh Eggs. Free from artificial additives, these naturally fresh eggs are high in protein, making them a healthy choice for your daily diet.
             </p>
-            <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md">Buy</button>
+            <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md sm:text-base text-[13px]">Buy</button>
           </div>
 
-          <div className="bg-[#68B9D9] flex flex-col items-center w-full max-w-[300px] sm:max-w-[363px] h-[450px] sm:h-[513px] rounded-t-4xl">
-            <img src={prdct1} alt="" className="w-[300px] sm:w-[363px] h-[180px] sm:h-[216px]" />
-            <h2 className="text-base sm:text-lg font-bold pt-6 sm:pt-8 pb-3 sm:pb-5 text-center">Perfect Eggs - Value Pack Edition</h2>
-            <p className="text-gray-800 text-xs sm:text-sm text-center px-4">
-              Introducing Perfect Eggs, our imported quality fresh eggs now available in a convenient value pack. Ideal for daily consumption, these eggs offer both quality and affordability for your everyday cooking needs.
-            </p>
-            <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md">Buy</button>
-          </div>
+
+
+        
+          
         </div>
-            <div className="flex flex-wrap justify-center lg:justify-between gap-4 px-4 sm:px-10 md:px-16 lg:px-28">
-              <div className="bg-[#68B9D9] flex flex-col items-center w-full max-w-[300px] sm:max-w-[363px] h-[450px] sm:h-[513px] rounded-t-4xl">
-                <img src={prdct3} alt="" className="w-[300px] sm:w-[363px] h-[180px] sm:h-[216px]" />
-                <h2 className="text-base sm:text-lg font-bold pt-6 sm:pt-8 pb-3 sm:pb-5 text-center">Al Hayat Farm Fresh Egg</h2>
-                <p className="text-gray-800 text-xs sm:text-sm text-center px-4">
-                  Savor the freshness of locally produced Al Hayat Farm Fresh Eggs. Free from artificial additives, these naturally fresh eggs are high in protein, making them a healthy choice for your daily diet.
-                </p>
-                <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md">Buy</button>
-              </div>
-            
-              <div className="bg-[#68B9D9] flex flex-col items-center w-full max-w-[300px] sm:max-w-[363px] h-[450px] sm:h-[513px] rounded-t-4xl">
-                <img src={prdct2} alt="" className="w-[300px] sm:w-[363px] h-[180px] sm:h-[216px]" />
-                <h2 className="text-base sm:text-lg font-bold pt-6 sm:pt-8 pb-3 sm:pb-5 text-center">Daily Foods Fresh Hen Egg</h2>
-                <p className="text-gray-800 text-xs sm:text-sm text-center px-4">
-                  Experience the superior taste and nutrition of our imported Daily Foods Fresh Hen Eggs. Rich in essential proteins and nutrients, these eggs provide the daily energy you need. Perfect for a wide range of culinary applications, from breakfast dishes to gourmet recipes.
-                </p>
-                <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md">Buy</button>
-              </div>
-            
-              <div className="bg-[#68B9D9] flex flex-col items-center w-full max-w-[300px] sm:max-w-[363px] h-[450px] sm:h-[513px] rounded-t-4xl">
-                <img src={prdct1} alt="" className="w-[300px] sm:w-[363px] h-[180px] sm:h-[216px]" />
-                <h2 className="text-base sm:text-lg font-bold pt-6 sm:pt-8 pb-3 sm:pb-5 text-center">Perfect Eggs - Value Pack Edition</h2>
-                <p className="text-gray-800 text-xs sm:text-sm text-center px-4">
-                  Introducing Perfect Eggs, our imported quality fresh eggs now available in a convenient value pack. Ideal for daily consumption, these eggs offer both quality and affordability for your everyday cooking needs.
-                </p>
-                <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md">Buy</button>
-              </div>
-            </div>
-
-        </div> 
+        
+        
+        
 
 
 
