@@ -25,12 +25,12 @@ const Contact = () => {
 
 
     <div className="flex items-center justify-center bg-cover bg-center lg:py-14 py-10 lg:px-16" style={{ backgroundImage: `url(${img1})` }}>
-            <div  className="bg-[#68B9D9] md:p-8 py-6 rounded-3xl px-5 shadow-lg  w-[300px] s:w-[430px] sm:w-[580px] md:w-[660px] lg:w-[430px] xl:w-[430px]" >
-              <h2 className="xl:text-[48px] text-xl  md:text-2xl mb-6 text-black font-[Gill_Sans_MT]">Send Message</h2>
+            <div  className="bg-[#68B9D9] md:p-8 py-6 rounded-3xl px-5 shadow-lg  w-[300px] s:w-[430px] sm:w-[580px] md:w-[660px] lg:w-[750px] xl:w-[1100px] xl:h-[670px] xl:py-10   " >
+              <h2 className="xl:text-[48px] text-xl md:text-2xl mb-6 xl:mb-14 text-black font-[Gill_Sans_MT]">Send Message</h2>
               <form className="md:space-y-6 space-y-3 flex flex-col ">
                 <input  type="text"  placeholder="Name"  className="w-full p-3 bg-white text-black sm:text-xl  xl:text-[28px] font-[Gill_Sans_MT] rounded-md border border-[#68B9D9] outline-none"/>
                 <input  type="email"  placeholder="Email"  className="p-3 bg-white text-black sm:text-xl xl:text-[28px] font-[Gill_Sans_MT] rounded-md border border-[#68B9D9] outline-none"/>
-                <textarea placeholder="Type your message..." rows="8" className="h-28 p-3 bg-white text-black sm:text-xl xl:text-[28px] font-[Gill_Sans_MT] rounded-md border border-[#68B9D9] outline-none"></textarea>
+                <textarea placeholder="Type your message..." rows="8" className="h-28 xl:h-56 p-3 bg-white text-black sm:text-xl xl:text-[28px] font-[Gill_Sans_MT] rounded-md border border-[#68B9D9] outline-none"></textarea>
                 <button type="submit" className="bg-blue-600 text-white md:py-4 py-1 px-4 rounded-md font-semibold text-lg hover:opacity-90 transition ">Send</button>
               </form>
             </div>

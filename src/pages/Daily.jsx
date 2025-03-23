@@ -25,6 +25,12 @@ const Daily = () => {
           </div>
         </div>  
         </div>
+
+
+
+        <div className="flex w-screen justify-center py-5 ">
+          <h1 className="s:text-[20px] sm:text-[25px] md:text-[32px] lg:text-[40px] xl:text-[45px] font-[Gelasio]">🥚 <span className="text-[#3093CC]">Daily Eggs</span>  — Fresh from Farm to Family.</h1>
+        </div>
     </div>
   )
 }
