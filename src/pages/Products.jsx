@@ -38,8 +38,8 @@ const Products = () => {
  
 
         <div className="flex flex-wrap justify-center lg:justify-between gap-4 sm:px-10 md:px-16 lg:px-28">
-          <div className="bg-[#68B9D9] flex flex-col items-center w-[150px]  max-w-[300px] sm:max-w-[363px] h-full pb-5 sm:h-[513px] rounded-t-3xl">
-            <img src={prdct3} alt="" className="w-[150px] " />
+          <div className="bg-[#68B9D9] flex flex-col items-center w-[170px]  max-w-[300px] sm:max-w-[363px] h-full pb-5 sm:h-[513px] rounded-t-3xl">
+            <img src={prdct3} alt="" className="w-[170px] " />
             <h2 className="s:text-base text-xs sm:text-lg font-bold sm:pt-6 pt-2 sm:pt-8 pb-3 sm:pb-3 pb-1 text-center">Al Hayat Farm Fresh Egg</h2>
             <p className="text-gray-800 s:text-xs text-[10px] sm:text-sm text-center sm:px-4 px-2">
               Savor the freshness of locally produced Al Hayat Farm Fresh Eggs. Free from artificial additives, these naturally fresh eggs are high in protein, making them a healthy choice for your daily diet.
@@ -47,8 +47,8 @@ const Products = () => {
             <button className="mt-3 sm:mt-4 bg-white text-black px-12 sm:px-16 py-1.5 sm:py-2 rounded-full font-semibold shadow-md sm:text-base text-[13px]">Buy</button>
           </div>
 
-          <div className="bg-[#68B9D9] flex flex-col items-center w-[150px]  max-w-[300px] sm:max-w-[363px] h-full pb-5 sm:h-[513px] rounded-t-3xl">
-            <img src={prdct3} alt="" className="w-[150px] " />
+          <div className="bg-[#68B9D9] flex flex-col items-center w-[170px]  max-w-[300px] sm:max-w-[363px] h-full pb-5 sm:h-[513px] rounded-t-3xl">
+            <img src={prdct3} alt="" className="w-[170px] " />
             <h2 className="s:text-base text-xs sm:text-lg font-bold sm:pt-6 pt-2 sm:pt-8 pb-3 sm:pb-3 pb-1 text-center">Al Hayat Farm Fresh Egg</h2>
             <p className="text-gray-800 s:text-xs text-[10px] sm:text-sm text-center sm:px-4 px-2">
               Savor the freshness of locally produced Al Hayat Farm Fresh Eggs. Free from artificial additives, these naturally fresh eggs are high in protein, making them a healthy choice for your daily diet.
