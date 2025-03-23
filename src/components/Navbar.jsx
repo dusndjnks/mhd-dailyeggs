@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className=''>
       <div className='md:p-8 p-4 bg-[#3093CC] '>
     <div className=" bg-white rounded-2xl justify-center items-center">
-          <div className={`flex justify-between relative duration-500 lg:px-10 px-7 md:static ${extendNavbar ? "h-[350px] pt-5" : "h-[72px] pt-5"}`}>
+          <div className={`flex justify-between relative z-[+1]  duration-500 lg:px-10 px-7 md:static ${extendNavbar ? "h-[350px] pt-5" : "h-[72px] pt-5"}`}>
                 <div>
                 <img src={bg} alt='' className="h-9" />
                 </div>

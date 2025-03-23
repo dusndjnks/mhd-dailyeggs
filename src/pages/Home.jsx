@@ -18,7 +18,6 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <div className=''>
-          <div className=''>
            <div className="xl:h-[650px] h-[160px] x:h-[190px] s:h-[230px] sm:h-[300px] md:h-[400px] lg:h-[480px] bg-cover bg-center " style={{ backgroundImage: `url(${img})` }}>
              <div className="flex  xl:h-screen xl:pr-20 px-2">
                 <div className="w-2/6 mr-2">
@@ -36,7 +35,6 @@ const Home = () => {
                   </div>
                 </div>
              </div>
-           </div>  
            </div>
 
            <div className="h-full  flex items-center justify-center bg-cover bg-center py-14 lg:px-16 px-2" style={{ backgroundImage: `url(${img1})` }}>
