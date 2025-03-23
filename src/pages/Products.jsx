@@ -36,7 +36,6 @@ const Products = () => {
           </div>
         </div>
 
-
         <div className='flex flex-col md:gap-20 '>
         <div className="flex flex-wrap justify-center lg:justify-between gap-4 px-4 sm:px-10 md:px-16 lg:px-28">
           <div className="bg-[#68B9D9] flex flex-col items-center w-full max-w-[300px] sm:max-w-[363px] h-[450px] sm:h-[513px] rounded-t-4xl">
@@ -95,7 +94,7 @@ const Products = () => {
               </div>
             </div>
 
-        </div>
+        </div> 
 
 
 
