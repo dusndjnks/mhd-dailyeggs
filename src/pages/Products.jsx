@@ -27,9 +27,7 @@ const Products = () => {
         </div>
 
         <div 
-          className="h-full flex items-center justify-center bg-cover bg-center py-10 sm:py-14 md:py-20 px-6 sm:px-12 md:px-16" 
-          style={{ backgroundImage: `url(${img1})` }}
-        >
+          className="h-full flex items-center justify-center bg-cover bg-center py-10 sm:py-14 md:py-20 px-6 sm:px-12 md:px-16" style={{ backgroundImage: `url(${img1})` }}>
           <div className="flex flex-col items-center text-center font-[Gill_Sans_MT] leading-relaxed">
             <h1 className="text-lg sm:text-xl md:text-3xl lg:text-4xl">With the right ingredients,</h1>
             <h1 className="text-[#3093CC] font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl">Magic Can Happen</h1>
