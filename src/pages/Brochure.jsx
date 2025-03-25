@@ -6,6 +6,7 @@ import img6 from "../images/Group 1127.png"
 import img3 from "../images/Rectangle 1089.png"
 import img8 from "../images/Ellipse 9.png"
 import group from "../images/Group 7.png"
+import prdct3 from "../images/Image (1).png"
 
 
 
@@ -26,9 +27,6 @@ const Brochure = () => {
              </div>
           </div>
         </div> 
-
-
-
 
 
         <div className="flex justify-center py-5 ">
