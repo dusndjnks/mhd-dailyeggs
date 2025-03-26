@@ -36,37 +36,29 @@ const Daily = () => {
         </div>
 
 
-        <div className="h-full flex flex-col items-center justify-center bg-cover bg-center py-10 px-4 s:px-6 sm:px-8 lg:px-10" 
-        style={{ backgroundImage: `url(${img1})` }}>
-  
-          <div className="flex flex-col lg:flex-row justify-between mt-6 sm:mt-10">
-            <div className="w-full md:w-3/7 flex justify-center">
-              <img src={img4} alt="" className="w-full max-w-[600px] px-10 sm:max-w-[800px] md:max-w-[1000px] lg:max-w-[1200px] h-auto" />
-            </div>
-            <div className="w-full md:w-4/7 flex items-center px-4 sm:px-8 md:px-10">
-              <p className="font-[Gill_Sans_MT] text-[14px] s:text-[18px] sm:text-[22px] md:text-[24px] lg:text-[28px] leading-relaxed px-2 ">
-                At Daily Eggs, we believe that great health starts with great food. That’s why we provide farm-fresh, naturally nutritious eggs from healthy, well-cared-for hens. Our eggs are packed with high-quality protein, essential vitamins, and antioxidants — perfect for boosting energy, supporting brain function, and promoting overall well-being.
-              </p>
-            </div>
+        <div className="h-full flex flex-col items-center justify-center bg-cover bg-center xl:py-10 py-3 px-4 x:px-6 lg:px-10 xl:px-20" style={{ backgroundImage: `url(${img1})` }}>
+          <div className="flex justify-between items-center my-4 sm:mt-6 gap-2 xl:gap-10">
+          <div className="w-1/2 flex justify-center">
+            <img src={img4} alt="" className="w-[170px] x:w-[190px] s:w-[240px] sm:w-[340px] md:w-[360px] lg:w-[490px] xl:w-[600px]" />
           </div>
-
-          <div className="flex flex-col-reverse lg:flex-row justify-between  mt-6 sm:mt-10">
-            <div className="w-full md:w-4/7 flex items-center px-4 sm:px-8 md:px-10">
-              <p className="font-[Gill_Sans_MT] text-[14px] s:text-[18px] sm:text-[22px] md:text-[24px] lg:text-[28px] leading-relaxed px-2">
-                We take pride in ethical, sustainable farming practices, ensuring every egg is produced with care and delivered with freshness. Whether you’re whipping up a quick breakfast, powering through a workout, or crafting a gourmet meal, Daily Eggs brings wholesome goodness to your table.
-              </p>
-            </div>
-            <div className="w-full md:w-3/7 flex justify-center">
-              <img src={img3} alt="" className="w-full max-w-[600px] px-10 sm:max-w-[800px] md:max-w-[1000px] lg:max-w-[1200px] h-auto" />
-            </div>
+          <div className="w-1/2 flex items-center pt-2">
+            <p className="font-[Gill_Sans_MT] text-[9px] s:text-[12px] sm:text-[14px] md:text-[17px] leading-relaxed lg:text-[22px] xl:text-[27px] 2xl:text-[30px]">At Daily Eggs, we believe that great health starts with great food. That’s why we provide farm-fresh, naturally nutritious eggs from healthy, well-cared-for hens. Our eggs are packed with high-quality protein, essential vitamins, and antioxidants — perfect for boosting energy, supporting brain function, and promoting overall well-being.</p>
           </div>
+        </div>
+        <div className="flex justify-between items-center my-4 sm:mt-6 gap-2 xl:gap-10">
+          <div className="w-1/2 flex items-center pt-2 ">
+            <p className="font-[Gill_Sans_MT] text-[9px] s:text-[12px] sm:text-[14px] md:text-[17px] leading-relaxed lg:text-[22px] xl:text-[28px] 2xl:text-[31px]">We take pride in ethical, sustainable farming practices, ensuring every egg is produced with care and delivered with freshness. Whether you’re whipping up a quick breakfast, powering through a workout, or crafting a gourmet meal, Daily Eggs brings wholesome goodness to your table.</p>
+          </div>
+          <div className="w-1/2 flex justify-center">
+            <img src={img3} alt="" className="w-[170px] x:w-[190px] s:w-[240px] sm:w-[340px] md:w-[360px] lg:w-[490px] xl:w-[600px]" />
+          </div>
+        </div>
       </div>
 
-
-
-        <div className="flex justify-center py-5 ">
+        <div className="flex justify-center md:py-5 py-3 ">
           <h1 className="s:text-[20px] sm:text-[25px] md:text-[32px] lg:text-[40px] xl:text-[45px] font-[Gelasio]">🥚 <span className="text-[#3093CC]">Daily Eggs</span>  — Fresh from Farm to Family.</h1>
         </div>
+
     </div>
   )
 }

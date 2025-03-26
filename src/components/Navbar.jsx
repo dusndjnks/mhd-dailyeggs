@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from "../images/logo1.png"
+import bg1 from "../images/logo1.png"
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className=" bg-white rounded-2xl justify-center items-center">
           <div className={`flex justify-between  relative z-[+1]  duration-500 lg:px-10 px-7 md:static ${extendNavbar ? "sm:h-[350px] h-[300px] pt-4 sm:pt-6" : "sm:h-[72px] h-[60px] pt-1 items-center "}`}>
                 <div>
-                <img src={bg} alt='' className="h-9" />
+                <img src={bg1} alt='' className="h-9" />
                 </div>
                 <div className=''>
                 <ul className={`flex md:flex-row duration-700 md:static absolute xs:flex flex-col lg:gap-7 gap-3 text-gray-800 font-semibold font-[Gelasi] font-[px] sm:text-xl  md:text-base lg:text-xl font-[Gelasi] ${extendNavbar ? "left-8 top-20 " : "left-[-200px] top-20"}  `}>
