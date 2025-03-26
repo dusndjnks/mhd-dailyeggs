@@ -28,7 +28,7 @@ const Brochure = () => {
           </div>
         </div> 
 
-        <div className="flex items-center justify-center bg-cover bg-center py-12 md:py-16 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-28 xl:py-24" style={{ backgroundImage: `url(${img1})` }}>
+        <div className="flex items-center justify-center bg-cover bg-center py-8 s:py-12 md:py-16 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-28 xl:py-24" style={{ backgroundImage: `url(${img1})` }}>
         <div className="flex justify-between s:gap-8 sm:gap-10 2xl:gap-20 w-full h-auto">
           <div className="relative w-1/2">
             <img src={img3} alt="Main Image" className="w-[160px] x:w-[180px] s:w-[230px] sm:w-[280px] md:w-[370px] lg:w-[500px] 2xl:w-[600px] rounded-xl object-cover " />
@@ -55,7 +55,7 @@ const Brochure = () => {
       </div>
 
 
-        <div className="flex justify-center py-5 ">
+        <div className="flex justify-center ">
           <h1 className="s:text-[20px] sm:text-[25px] md:text-[32px] lg:text-[40px] xl:text-[45px] font-[Gelasio]">🥚 <span className="text-[#3093CC]">Daily Eggs</span>  — Fresh from Farm to Family.</h1>
         </div>
 

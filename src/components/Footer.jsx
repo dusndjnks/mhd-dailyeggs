@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#3093CC] mt-5 text-black md:py-10 pt-5 md:px-14 lg:px-20 px-5  ">
+    <footer className="bg-[#3093CC] mt-5 text-black md:py-10 pt-5 md:px-14 lg:px-20 px-5">
         <div>
         <div className="flex items-center space-x-3">
           <img src={logo} alt="Daily Eggs Logo" className="md:w-28 xs:w-10 sm:w-16 md:w-24  " />

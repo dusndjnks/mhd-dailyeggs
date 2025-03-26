@@ -10,7 +10,7 @@ const Navbar = () => {
   const [extendNavbar,setExtendNavbar] = useState(false)
 
   return (
-    <div className='bg-[#3093CC]'>
+    <div className='bg-[#3093CC] '>
       <div className='md:p-8 p-2 bg-[#3093CC] '>
     <div className=" bg-white rounded-2xl justify-center items-center">
           <div className={`flex justify-between  relative z-[+1]  duration-500 lg:px-10 px-7 md:static ${extendNavbar ? "sm:h-[350px] h-[300px] pt-4 sm:pt-6" : "sm:h-[72px] h-[60px] pt-1 items-center "}`}>
